@@ -1,0 +1,174 @@
+04_#5
+
+hits <- 12
+shield <- 0
+if(hits>10 & shield==0){
+  print('blabla')
+}
+
+04_#8-1
+
+name <- readline('name: ')
+age <- readline('age: ')
+age <- as.numeric(age)
+
+if(age>=19){
+  cat(name, "님, 투표 가능합니다.", sep="")
+}else{
+  cat(name, "님, 투표 불가능합니다.", sep="")
+}
+
+04_#8-2
+
+score <- as.numeric(readline('score: '))
+if(score>=60){
+  print('pass')
+}else{
+  print('fail')
+}
+
+
+04_#8-3
+
+num <- as.numeric(readline('input:'))
+if(num %% 2 == 0){
+  print('짝수')
+}else{
+  print('홀수')
+}
+
+04_#9-1
+
+score <- as.numeric(readline('score: '))
+if (score >= 90){
+  print('A')
+}else{
+  if (score >= 80){
+    print('B')
+  }else{
+    print('C')
+  }
+}
+
+04_#12-1
+
+score <- as.numeric(readline('score: '))
+if (score >= 90){
+  print('A')
+}else if (score >= 80){
+  print('B')
+}else{
+  print('C')
+}
+
+04_#12-2
+
+for(num1 in 2:9){
+  if(num1==2){
+    nl <- ''
+  }else{
+    nl <- '\n'
+  }
+  print(sprintf('%s<%d??>', nl, num1))
+  for(num2 in 1:9){
+    print(
+      sprintf('%d X %d = %d',
+            num1, num2, num1*num2)
+    )
+  }
+}
+
+04_#14
+
+tot <- 0
+for(n in 1:100){
+  if(n %% 2 == 0){
+    #짝수인 경우
+    tot <- tot + n
+  }
+}
+print(tot)
+
+#################
+
+for(n in 1:10){
+  if(n %% 2 == 0){
+    res <- '짝수'
+  }else{
+    res <- '홀수'
+  }
+  cat(n,'은 ', res,'입니다.\n', sep='')
+}
+###################
+even_n <- 0
+odd_n <- 0
+
+for(n in 1:55){
+  if(n %% 2 == 0){
+    even_n <- even_n + 1
+  }else{
+    odd_n <- odd_n + 1
+  }
+}
+cat(even_n, odd_n)
+###################
+for(n in seq(1,9,2)){
+  print(n ** 2)
+}
+
+04_#19
+
+while(1){
+  name <- readline('이름:')
+  if (name=='quit'){
+    print('thanks!')
+    break
+  }else if (name==''){
+    print('다시 입력하세요!')
+    next
+  }
+  cat(name,'님 반갑습니다.\n', sep='')
+}
+
+
+04#22
+
+for(num1 in 2:9){
+  if(num1==2){
+    nl <- ''
+  }else{
+    nl <- '\n'
+  }
+  print(sprintf('%s<%d??>', nl, num1))
+  for(num2 in 1:9){
+    print(
+      sprintf('%d X %d = %d',
+            num1, num2, num1*num2)
+    )
+  }
+}
+
+04#24
+
+v = c(3,5,2,6,5)
+for(i in 1:(length(v)-1)){
+  s = sprintf('%d + %d = %d', v[i], v[i+1], v[i]+v[i+1])
+  print(s)
+}
+
+04#27
+
+for(num1 in 2:9){
+  if(num1==2){
+    nl <- ''
+  }else{
+    nl <- '\n'
+  }
+  print(sprintf('%s<%d??>', nl, num1))
+  for(num2 in 1:9){
+    print(
+      sprintf('%d X %d = %d',
+            num1, num2, num1*num2)
+    )
+  }
+}

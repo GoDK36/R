@@ -1,0 +1,67 @@
+
+05#5_tail1
+
+evenSum <- function(){
+  tot <- 0
+  for(n in 1:10){
+    if(n%%2==0){
+      tot = tot + n
+    }
+  }
+  return(tot)
+}
+print(evenSum())
+
+
+###
+evenSum <- function(a, b){
+  tot <- 0
+  for(n in a:b){
+    if(n%%2==0){
+      tot = tot + n
+    }
+  }
+  return(tot)
+}
+print(evenSum(1,5))
+
+#####
+square <- function(){
+  for(n in 1:10){
+    print(n**2)
+  }
+}
+square()
+
+#####
+square <- function(a){
+  for(n in 1:a){
+    print(n**2)
+  }
+}
+square(5)
+
+#####
+mySumDiff(1,2,TRUE) ==> c?? ?ش??Ǵ? ???? T?̴ϱ?, 1+2 ==> ??ȯ ??=3
+mySumDiff(3,5,FALSE) ==> c?? F?ϱ?, 3-5 ==> ??ȯ ??=-2
+(이거 두 개는 나도 깨지더라...ㅠ왜 그런지 모르겠음ㅠ)
+
+05#5_fore.R
+
+space <- function(a,b){
+  return(a*b/2)
+}
+print(space(2,3))
+
+message <- function(name){
+  return(sprintf('%s??, ȯ???մϴ?.', name))
+}
+print(message('ö??'))
+
+range <- function(v){
+  return(max(v) - min(v))
+}
+print(range(c(10,4,2,6)))
+
+
+
