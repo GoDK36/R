@@ -11,7 +11,7 @@ paste(names(s1_freq), ":", s1_freq, collapse = ", ") #names 함수는 이름만 
 ################
 
 getwd() #현재 내 작업 디렉토리
-setwd('E:/Programming/R/강의자료')
+setwd('F:/Programming/R/강의자료')
 #새로 설정할 작업 디렉토리(백슬래쉬 두번 써야 함, 그냥 슬래쉬 한 개도 가능)
 
 lv <- readLines("news.txt", n=5)
@@ -82,22 +82,26 @@ write.table(df,'wordFreq+.txt',sep='\t')
 #append는 T이면 기존 파일 마지막에 문자열 추가
 
 install.packages("openxlsx")
-.libPaths()
+library(openxlsx)
+
+#엑셀 불러오기
+df <- read.xlsx("attBook.xlsx")
+
 #학년 평균
 mean(df$학년)
 #15학번 학생 정보
 sn <- substr(df$학번,3,4)
-df[sn=="15",c('성명',학번)]
+df[sn=="15",c('성명','학번')]
 #성이 '김'인 학생 정보
 df[substr(df$성명,1,1)=='김',]
 #학번이 가장 높은 학생의 정보
-sort(df$학번,decreasing=T)[1] #가장 높은 학번만 가져옴
+sort(df$학번,decreasing=T)[1] #가장 낮은 학번만 가져옴
 df[order(-df$학번)[1:5],]
 #학과별 벡터
 table(df$학과)
 #그래프 생성
 barplot(table(df$학과))
-barplot(talbe(sn))
+barplot(table(sn))
 #중앙값 구하기
 median(as.numeric(sn))
 #학번 평균 구하기
