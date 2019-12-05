@@ -1,0 +1,44 @@
+debate.txt
+Chris Wallace: Good evening from the Thomas and Mack Center at the University of Nevada, Las Vegas. I'm Chris Wallace of Fox News and I welcome you to the third and final of the 2016 presidential debates between secretary of state Hillary Clinton and Donald J. Trump. This debate is sponsored by the Commission on Presidential Debates. The commission has designed the format. Six roughly 15-minute segments, with two minute answers to the first question then open discussion for the rest of each segment. Both campaigns have agreed to those rules. For the record, I decided the topics and the questions in each topic. None of those questions has been shared with a commission or the two candidates. The audience here in the hall has promised to remain silent. No cheers, boos or other interruptions so we and you can focus on what the candidates have to say. No noise except right now as we welcome the Democratic nominee for president, secretary Clinton, and the Republican nominee for president, Mr. Trump.
+
+Wallace: Secretary Clinton, Mr. Trump, welcome. Let's get right to it. The first topic is the Supreme Court. You both talked briefly about the court in the last debate, but I want to drill down on this because the next president will almost certainly have at least one appointment and likely or possibly two or three appointments which means that you will in effect determine the balance of the court for what could be the next quarter century. First of all, where do you want to see the court take the country? And secondly, whatâ€™s your view on how the constitution should be interpreted? Do the founders' words mean what they say or is it a living document to be applied flexibly, according to changing circumstances? In this segment, secretary Clinton, you go first. You have two minutes.
+merged.txt
+debate.txt
+Chris Wallace: Good evening from the Thomas and Mack Center at the University of Nevada, Las Vegas. I'm Chris Wallace of Fox News and I welcome you to the third and final of the 2016 presidential debates between secretary of state Hillary Clinton and Donald J. Trump. This debate is sponsored by the Commission on Presidential Debates. The commission has designed the format. Six roughly 15-minute segments, with two minute answers to the first question then open discussion for the rest of each segment. Both campaigns have agreed to those rules. For the record, I decided the topics and the questions in each topic. None of those questions has been shared with a commission or the two candidates. The audience here in the hall has promised to remain silent. No cheers, boos or other interruptions so we and you can focus on what the candidates have to say. No noise except right now as we welcome the Democratic nominee for president, secretary Clinton, and the Republican nominee for president, Mr. Trump.
+
+movies.txt
+°Ü¿ï¿Õ±¹2
+Æ÷µåVÆä¶ó¸®
+°¨ÂÊ °°Àº ±×³à
+movies2.txt
+°Ü¿ï¿Õ±¹2
+Æ÷µåVÆä¶ó¸®
+³ª¸¦ Ã£¾ÆÁà
+news.txt
+Nato leaders are meeting near London, as tensions between members threaten to overshadow a summit marking the military alliance's 70th birthday.
+
+The three-hour talks are expected to cover issues such as cyber-attacks and the strategic challenge posed by China.
+news_wrd_freq.txt
+the : 41
+and : 25
+to : 23
+news1-5.txt
+Nato leaders are meeting near London, as tensions between members threaten to overshadow a summit marking the military alliance's 70th birthday.
+
+The three-hour talks are expected to cover issues such as cyber-attacks and the strategic challenge posed by China.
+regex_kr.txt
+°¡°¡°¡°¡°¡
+°¨a³ª,´Ùb
+°¡°¡³ª³ª³ª
+regex_sample.txt
+¹®ÀçÀÎ ´ëÅë·É¡¤¾Æº£ ½ÅÁ¶ ÀÏº» ÃÑ¸®¡¤¸®Ä¿Ã¢ Áß±¹ ±¹¹«¿ø ÃÑ¸®°¡ 9ÀÏ ¹® ´ëÅë·É°ú ±èÁ¤Àº ºÏÇÑ ±¹¹«À§¿øÀåÀÌ Áö³­ 4¿ù ³²ºÏ Á¤»óÈ¸´ã¿¡¼­ ÇÕÀÇÇÑ ¡®ÆÇ¹®Á¡ ¼±¾ğ¡¯¿¡ ´ëÇØ ÁöÁö¸¦ Ç¥¸íÇß´Ù.
+
+ÇÑ¡¤ÀÏ¡¤Áß 3±¹ Á¤»óÀº ÀÌ³¯ ÀÏº» µµÄì ³»°¢ºÎ ¿µºó°ü¿¡¼­ ¿­¸° 3°³±¹ Á¤»óÈ¸ÀÇ ÈÄ Æ¯º°¼º¸íÀ» ÅëÇØ ¡°ÀÏº»°ú Áß±¹ÀÇ Á¤»óµéÀº Æ¯È÷ Áö³­ 4¿ù 27ÀÏ ³²ºÏÁ¤»óÈ¸´ã¿¡¼­ ÇÑ¹İµµÀÇ ¿ÏÀüÇÑ ºñÇÙÈ­¿Í Ç×±¸Àû ÆòÈ­Ã¼Á¦ ±¸ÃàÀ» °øµ¿ ¸ñÇ¥·Î È®ÀÎÇÏ°í, ¹® ´ëÅë·É°ú ±èÁ¤Àº À§¿øÀå°£ ÇÕÀÇµÈ ¡®ÇÑ¹İµµ ÆòÈ­¡¤¹ø¿µ ¹× ÅëÀÏÀ» À§ÇÑ ÆÇ¹®Á¡ ¼±¾ğ¡¯À» Æò°¡ÇÏ°í È¯¿µÇÑ´Ù¡±°í ¹àÇû´Ù.
+wordFreq.txt
+Text	the	of	and	Genre
+A	30	25	15	fiction
+B	20	15	10	spoken
+wordFreq+.txt
+"the"	"of"	"and"	"Genre"	"Flag"
+"A"	30	25	15	"fiction"	1
+"B"	20	15	10	"spoken"	0

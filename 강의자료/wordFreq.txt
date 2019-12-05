@@ -1,0 +1,4 @@
+Text	the	of	and	Genre
+A	30	25	15	fiction
+B	20	15	10	spoken
+C	15	10	5	newspaper

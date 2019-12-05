@@ -1,0 +1,4 @@
+"the"	"of"	"and"	"Genre"	"Flag"
+"A"	30	25	15	"fiction"	1
+"B"	20	15	10	"spoken"	0
+"C"	15	10	5	"newspaper"	1

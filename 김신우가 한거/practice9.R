@@ -129,7 +129,7 @@ wrd_freq <- table(wrd)
 #내 방법
 wrd_freq_v <- vector()
 wrd_freq_v <- append(wrd_freq_v, wrd_freq[wrd])
-paste(wrd, ':', wrd_freq_v )
+paste(wrd, ':', wrd_freq_v ) #you가 두 번 나옴으로 안됨.
 #교수님 방법
 paste(names(wrd_freq),':',wrd_freq)
 #table()의 출력값은 숫자, 위의 스트링은 이름임.
